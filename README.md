@@ -4,7 +4,7 @@
 
 ## Example usage
 ```twig
-{% set items = productRepositorySearch(context) %}
-{{ dump(items) }}
+{% set criteria = productRepositoryCriteriaWithPrefixFilter('productNumber', 'SWDEMO') %}
+{% set items = productRepositorySearch(criteria, context) %}
 {% endblock %}
 ```

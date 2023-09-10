@@ -1,9 +1,0 @@
-{% sw_extends '@Storefront/storefront/base.html.twig' %}
-
-{% block base_main %}
-    <h1>TwigExtension test</h1>
-    {% set criteria = productRepositoryCriteriaWithPrefixFilter('productNumber', 'SWDEMO') %}
-    {% set items = productRepositorySearch(criteria, context) %}
-    {{ dump(items) }}
-    {{ dump() }}
-{% endblock %}
