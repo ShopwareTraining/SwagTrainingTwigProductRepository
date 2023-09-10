@@ -1,0 +1,40 @@
+{
+  "name": "swag-training/shopware6-twig-product-repository",
+  "description": "Example plugin exposing product repository via Twig",
+  "type": "shopware-platform-plugin",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Jisse Reitsma"
+    }
+  ],
+  "require": {
+    "shopware/core": "~6.4"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "SwagTraining\\TwigProductRepository\\": "src/"
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "SwagTraining\\TwigProductRepository\\SwagTrainingTwigProductRepository",
+    "copyright": "Jisse Reitsma",
+    "label": {
+      "de-DE": "SwagTrainingTwigProductRepository",
+      "en-GB": "SwagTrainingTwigProductRepository"
+    },
+    "description": {
+      "de-DE": "Example plugin exposing product repository via Twig",
+      "en-GB": "Example plugin exposing product repository via Twig"
+    },
+    "manufacturerLink": {
+      "de-DE": "https://acme.org",
+      "en-GB": "https://acme.org"
+    },
+    "supportLink": {
+      "de-DE": "https://acme.org",
+      "en-GB": "https://acme.org"
+    }
+  }
+}
